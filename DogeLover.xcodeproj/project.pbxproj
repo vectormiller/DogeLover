@@ -11,9 +11,6 @@
 		67E0BAB82C09B499000C8C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BAB72C09B499000C8C65 /* ContentView.swift */; };
 		67E0BABA2C09B49B000C8C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E0BAB92C09B49B000C8C65 /* Assets.xcassets */; };
 		67E0BABE2C09B49B000C8C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E0BABD2C09B49B000C8C65 /* Preview Assets.xcassets */; };
-		67E0BAC82C09B49C000C8C65 /* DogeLoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BAC72C09B49C000C8C65 /* DogeLoverTests.swift */; };
-		67E0BAD22C09B49C000C8C65 /* DogeLoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BAD12C09B49C000C8C65 /* DogeLoverUITests.swift */; };
-		67E0BAD42C09B49C000C8C65 /* DogeLoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BAD32C09B49C000C8C65 /* DogeLoverUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		67E0BABB2C09B49B000C8C65 /* DogeLover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DogeLover.entitlements; sourceTree = "<group>"; };
 		67E0BABD2C09B49B000C8C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67E0BAC32C09B49C000C8C65 /* DogeLoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeLoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E0BAC72C09B49C000C8C65 /* DogeLoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeLoverTests.swift; sourceTree = "<group>"; };
 		67E0BACD2C09B49C000C8C65 /* DogeLoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeLoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E0BAD12C09B49C000C8C65 /* DogeLoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeLoverUITests.swift; sourceTree = "<group>"; };
-		67E0BAD32C09B49C000C8C65 /* DogeLoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeLoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				67E0BAB42C09B499000C8C65 /* DogeLover */,
-				67E0BAC62C09B49C000C8C65 /* DogeLoverTests */,
-				67E0BAD02C09B49C000C8C65 /* DogeLoverUITests */,
 				67E0BAB32C09B499000C8C65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				67E0BABD2C09B49B000C8C65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		67E0BAC62C09B49C000C8C65 /* DogeLoverTests */ = {
-			isa = PBXGroup;
-			children = (
-				67E0BAC72C09B49C000C8C65 /* DogeLoverTests.swift */,
-			);
-			path = DogeLoverTests;
-			sourceTree = "<group>";
-		};
-		67E0BAD02C09B49C000C8C65 /* DogeLoverUITests */ = {
-			isa = PBXGroup;
-			children = (
-				67E0BAD12C09B49C000C8C65 /* DogeLoverUITests.swift */,
-				67E0BAD32C09B49C000C8C65 /* DogeLoverUITestsLaunchTests.swift */,
-			);
-			path = DogeLoverUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E0BAC82C09B49C000C8C65 /* DogeLoverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E0BAD42C09B49C000C8C65 /* DogeLoverUITestsLaunchTests.swift in Sources */,
-				67E0BAD22C09B49C000C8C65 /* DogeLoverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  DogeLover
-//
-//  Created by vectormiller on 5/31/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
